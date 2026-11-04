@@ -1,0 +1,42 @@
+===Base de datos tienda_de_ropa_los_pollos_suag
+
+== Estructura de tabla para la tabla producto
+
+|------
+|Columna|Tipo|Nulo|Predeterminado
+|------
+|//**ip_producto**//|int(11)|No|
+|marca|varchar(30)|Sí|NULL
+|categoria|varchar(30)|Sí|NULL
+|talle|varchar(10)|Sí|NULL
+|material|varchar(50)|Sí|NULL
+|color|varchar(20)|Sí|NULL
+|precio|decimal(15,2)|Sí|NULL
+|stock|int(11)|Sí|NULL
+== Volcado de datos para la tabla producto
+
+== Estructura de tabla para la tabla recibo
+
+|------
+|Columna|Tipo|Nulo|Predeterminado
+|------
+|//**id_producto**//|int(11)|No|
+|recibo_producto|varchar(100)|Sí|NULL
+|producto|varchar(50)|Sí|NULL
+|direccion_envio|varchar(50)|Sí|NULL
+== Volcado de datos para la tabla recibo
+
+== Estructura de tabla para la tabla usuarios
+
+|------
+|Columna|Tipo|Nulo|Predeterminado
+|------
+|//**ip_usuario**//|int(11)|No|
+|nombre|varchar(16)|Sí|NULL
+|contrasena|int(8)|Sí|NULL
+|conf_contrasena|int(8)|Sí|NULL
+|**mail**|varchar(50)|Sí|NULL
+|fecha_nacimiento|date|Sí|NULL
+|direccion|varchar(30)|Sí|NULL
+== Volcado de datos para la tabla usuarios
+

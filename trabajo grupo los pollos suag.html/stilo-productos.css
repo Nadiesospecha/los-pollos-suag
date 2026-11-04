@@ -1,0 +1,40 @@
+.body,html {
+    background-color: rgb(224, 224, 224);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.contenedor{
+    background-color: white;
+    border-radius: 5px;
+    padding: 50px;
+    width: 800px;
+    height: 600px;
+    display: flex;
+    border-width: 5px;
+    border-color: black;
+    flex-direction: row;
+    box-shadow: 0px 0.3px 0px 0.3px;
+    justify-content: space-around;
+    align-items:center;
+}
+.contenedor img {
+    width: 300px;
+    height: 500px;
+    display: flex;
+    align-self: center;
+    justify-self: baseline;
+}
+.contenedor .detalles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: 0px;
+    gap: 50px;
+}
+.detalles .precio {
+    color: green;
+}
